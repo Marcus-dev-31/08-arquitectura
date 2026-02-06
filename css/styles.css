@@ -80,7 +80,7 @@ h3 {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.45);
+    background: rgba(0, 0, 0, 0.25);
 }
 
 @media (min-width: 768px) {
@@ -112,6 +112,11 @@ h3 {
         flex-direction: row;
         justify-content: space-between;
     }
+}
+
+.nombre-sitio {
+    font-size: clamp(2.2rem, 6vw, 4rem);
+    line-height: 1;
 }
 
 .nombre-sitio span {
@@ -206,7 +211,6 @@ h3 {
     url("../08-arquitectura/img/nosotros.jpg");
   background-size: cover;
   background-position: center;
-  margin-top: -1rem;
 }
 
 
@@ -217,6 +221,9 @@ h3 {
 
 .texto-sobre-nosotros h2 {
     margin-bottom: 0;
+    font-size: clamp(2.6rem, 7vw, 5rem);
+    line-height: 1.05;
+    padding-bottom: 2rem;
 }
 
 .texto-sobre-nosotros p {
@@ -224,4 +231,25 @@ h3 {
     color: #333;
     position: relative;
     z-index: 2;
+}
+
+/**Seccion Modelos**/
+
+.seccion-modelos__header h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: clamp(2.6rem, 7vw, 5rem);
+    line-height: 1.05;
+    padding-bottom: 2rem;
+}
+
+.modelo p {
+    padding-top: 2rem;
+}
+
+.modelo img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
 }
