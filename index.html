@@ -1,108 +1,114 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Arquitectura Design</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/base-reset.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="contenedor contenido-header">
-        <div class="barra-superior">
-          <div class="logo">
-            <h1 class="nombre-sitio">Arquitectura<span>Bosque</span></h1>
-          </div>
-          <nav class="navegacion">
-            <a class="link" href="#">Inicio</a>
-            <a class="link" href="#">Nosotros</a>
-            <a class="link" href="#">Modelos</a>
-            <a class="link" href="#">Galeria</a>
-            <a class="link" href="#">Contacto</a>
-          </nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arquitectura Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/base-reset.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="contenedor contenido-header">
+      <div class="barra-superior">
+        <div class="logo">
+          <h1 class="nombre-sitio">Arquitectura<span>Bosque</span></h1>
         </div>
-        <div class="slogan">
-          <h1>Tu casa en el bosque</h1>
-          <p>Construimos la casa de tus sueños</p>
+        <nav class="navegacion">
+          <a class="link" href="#">Inicio</a>
+          <a class="link" href="#">Nosotros</a>
+          <a class="link" href="#">Modelos</a>
+          <a class="link" href="#">Galeria</a>
+          <a class="link" href="#">Contacto</a>
+        </nav>
+      </div>
+      <div class="slogan">
+        <h1>Tu casa en el bosque</h1>
+        <p>Construimos la casa de tus sueños</p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="sobre-nosotros">
+      <div class="contenedor sobre-nosotros__contenido">
+        <div class="sobre-nosotros__img"></div>
+        <div class="sobre-nosotros__texto">
+          <h2>Sobre Nosotros</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Explicabo, nam aspernatur est quas nihil perspiciatis voluptatem
+            vitae accusantium sit numquam ratione impedit alias provident
+            repellendus voluptates, magni pariatur quod quam.
+          </p>
         </div>
       </div>
-    </header>
-    <main>
-      <section class="sobre-nosotros">
-        <div class="contenedor sobre-nosotros__contenido">
-          <div class="sobre-nosotros__img"></div>
-          <div class="sobre-nosotros__texto">
-            <h2>Sobre Nosotros</h2>
+    </section>
+    <section class="seccion-modelos">
+      <div class="contenedor">
+        <header class="seccion-modelos__header">
+          <p class="modelos-eyebrow">Arquitectura pensada para vos</p>
+
+          <h2>Nuestros Modelos</h2>
+
+          <p class="modelos-descripcion">
+            Tres propuestas diseñadas para adaptarse a distintos estilos de vida
+          </p>
+
+        </header>
+
+        <div class="modelos">
+          <article class="modelo modelo--basico">
+            <h3>Modelo Básico</h3>
+            <img src="./08-arquitectura/img/modelo_basico.jpg" alt="Casa modelo básico" />
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Explicabo, nam aspernatur est quas nihil perspiciatis voluptatem
-              vitae accusantium sit numquam ratione impedit alias provident
-              repellendus voluptates, magni pariatur quod quam.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Sapiente velit harum asperiores ut officiis quam repellendus
+              nulla eaque quibusdam sunt? Quo fugiat temporibus saepe deleniti
+              odio tenetur nam nostrum maiores?
             </p>
-          </div>
+            <a class="btn" href="#">Más información</a>
+          </article>
+
+          <article class="modelo modelo--premier">
+            <h3>Modelo Premier</h3>
+            <img src="./08-arquitectura/img/modelo_premier.jpg" alt="Casa modelo premier" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+              accusantium amet error architecto doloribus itaque mollitia
+              quisquam laboriosam quas aliquid, eligendi optio fugit, natus
+              ipsam quibusdam. Quia quibusdam vitae delectus.
+            </p>
+            <a class="btn" href="#">Más información</a>
+          </article>
+
+          <article class="modelo modelo--elite">
+            <h3>Modelo Elite</h3>
+            <img src="./08-arquitectura/img/modelo_elite.jpg" alt="Casa modelo elite" />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
+              minus delectus, natus, pariatur distinctio recusandae rerum
+              adipisci veniam aliquid explicabo praesentium libero suscipit
+              consequatur itaque omnis tempora voluptatem incidunt enim.
+            </p>
+            <a class="btn" href="#">Más información</a>
+          </article>
         </div>
-      </section>
-      <section class="seccion-modelos">
-        <div class="contenedor">
-          <header class="seccion-modelos__header">
-            <h2>Nuestros modelos</h2>
-          </header>
+      </div>
+    </section>
+    <section class="seccion-galeria">
+      <div class="contenedor">
+        <h2 class="galeria">
+          
+        </h2>
+      </div>
+    </section>
+  </main>
+</body>
 
-          <div class="modelos">
-            <article class="modelo modelo--basico">
-              <h3>Modelo Básico</h3>
-              <img
-                src="./08-arquitectura/img/modelo_basico.jpg"
-                alt="Casa modelo básico"
-              />
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Sapiente velit harum asperiores ut officiis quam repellendus
-                nulla eaque quibusdam sunt? Quo fugiat temporibus saepe deleniti
-                odio tenetur nam nostrum maiores?
-              </p>
-              <a class="btn" href="#">Más información</a>
-            </article>
-
-            <article class="modelo modelo--premier">
-              <h3>Modelo Premier</h3>
-              <img
-                src="./08-arquitectura/img/modelo_premier.jpg"
-                alt="Casa modelo premier"
-              />
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-                accusantium amet error architecto doloribus itaque mollitia
-                quisquam laboriosam quas aliquid, eligendi optio fugit, natus
-                ipsam quibusdam. Quia quibusdam vitae delectus.
-              </p>
-              <a class="btn" href="#">Más información</a>
-            </article>
-
-            <article class="modelo modelo--elite">
-              <h3>Modelo Elite</h3>
-              <img
-                src="./08-arquitectura/img/modelo_elite.jpg"
-                alt="Casa modelo elite"
-              />
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
-                minus delectus, natus, pariatur distinctio recusandae rerum
-                adipisci veniam aliquid explicabo praesentium libero suscipit
-                consequatur itaque omnis tempora voluptatem incidunt enim.
-              </p>
-              <a class="btn" href="#">Más información</a>
-            </article>
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
 </html>
