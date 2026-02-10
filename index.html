@@ -1,114 +1,197 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arquitectura Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/base-reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Arquitectura Design</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="css/base-reset.css" />
-  <link rel="stylesheet" href="css/styles.css" />
-</head>
-
-<body>
-  <header class="header">
-    <div class="contenedor contenido-header">
-      <div class="barra-superior">
-        <div class="logo">
-          <h1 class="nombre-sitio">Arquitectura<span>Bosque</span></h1>
+  <body>
+    <header class="header">
+      <div class="contenedor contenido-header">
+        <div class="barra-superior">
+          <div class="logo">
+            <h1 class="nombre-sitio">Arquitectura<span>Bosque</span></h1>
+          </div>
+          <nav class="navegacion">
+            <a class="link" href="#">Inicio</a>
+            <a class="link" href="#">Nosotros</a>
+            <a class="link" href="#">Modelos</a>
+            <a class="link" href="#">Galeria</a>
+            <a class="link" href="#">Contacto</a>
+          </nav>
         </div>
-        <nav class="navegacion">
+        <div class="slogan">
+          <h1>Tu casa en el bosque</h1>
+          <p>Construimos la casa de tus sueños</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="sobre-nosotros">
+        <div class="contenedor sobre-nosotros__contenido">
+          <div class="sobre-nosotros__img"></div>
+          <div class="sobre-nosotros__texto">
+            <h2>Sobre Nosotros</h2>
+            <p>
+              En Arquitectura Bosque diseñamos y construimos viviendas pensadas
+              para integrarse de manera natural con su entorno. Creemos en una
+              arquitectura honesta, funcional y cálida, donde cada espacio
+              dialoga con el paisaje y mejora la forma de habitarlo.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="seccion-modelos">
+        <div class="contenedor">
+          <header class="seccion-modelos__header">
+            <p class="modelos-eyebrow">Arquitectura pensada para vos</p>
+
+            <h2>Nuestros Modelos</h2>
+
+            <p class="modelos-descripcion">
+              Tres propuestas diseñadas para adaptarse a distintos estilos de
+              vida
+            </p>
+          </header>
+
+          <div class="modelos">
+            <article class="modelo modelo--basico">
+              <h3>Modelo Básico</h3>
+              <img
+                src="./08-arquitectura/img/modelo_basico.jpg"
+                alt="Casa modelo básico"
+              />
+              <p>
+                El Modelo Básico está pensado para quienes buscan una vivienda
+                funcional, bien resuelta y en armonía con el entorno. Su diseño
+                prioriza la simpleza, la eficiencia del espacio y una
+                construcción sólida, ideal para escapadas o primera vivienda.
+              </p>
+              <a class="btn" href="#">Más información</a>
+            </article>
+
+            <article class="modelo modelo--premier">
+              <h3>Modelo Premier</h3>
+              <img
+                src="./08-arquitectura/img/modelo_premier.jpg"
+                alt="Casa modelo premier"
+              />
+              <p>
+                El Modelo Premier ofrece un equilibrio entre diseño y confort.
+                Incorpora mayores superficies, mejor distribución interior y una
+                relación más fluida entre los espacios interiores y exteriores,
+                manteniendo siempre una estética cálida y natural.
+              </p>
+
+              <a class="btn" href="#">Más información</a>
+            </article>
+
+            <article class="modelo modelo--elite">
+              <h3>Modelo Elite</h3>
+              <img
+                src="./08-arquitectura/img/modelo_elite.jpg"
+                alt="Casa modelo elite"
+              />
+              <p>
+                El Modelo Elite representa nuestra propuesta más completa.
+                Diseñado para quienes buscan una experiencia de habitar
+                superior, combina amplios espacios, vistas privilegiadas y
+                detalles constructivos de alta calidad, sin perder la esencia
+                del entorno natural.
+              </p>
+
+              <a class="btn" href="#">Más información</a>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="seccion-galeria">
+        <div class="contenedor">
+          <h2 class="seccion-galeria__titulo">Galeria</h2>
+          <div class="galeria__grid">
+            <figure class="galeria__item">
+              <img
+                src="./08-arquitectura/img/imagen_1.jpg"
+                alt="Cabaña en el bosque al atardecer"
+              />
+            </figure>
+
+            <figure class="galeria__item galeria__item--alto">
+              <img
+                src="./08-arquitectura/img/imagen_2.jpg"
+                alt="Interior de cabaña"
+              />
+            </figure>
+
+            <figure class="galeria__item galeria__item--alto">
+              <img
+                src="./08-arquitectura/img/imagen_3.jpg"
+                alt="Zona de relax en cabaña"
+              />
+            </figure>
+
+            <figure class="galeria__item galeria__item--alto-3">
+              <img
+                src="./08-arquitectura/img/imagen_4.jpg"
+                alt="Fogata en exterior"
+              />
+            </figure>
+
+            <figure class="galeria__item galeria__item--alto">
+              <img
+                src="./08-arquitectura/img/imagen_5.jpg"
+                alt="Paisaje desde la cabaña"
+              />
+            </figure>
+
+            <figure class="galeria__item">
+              <img
+                src="./08-arquitectura/img/imagen_6.jpg"
+                alt="Frente de cabaña con arboles"
+              />
+            </figure>
+
+            <figure class="galeria__item">
+              <img
+                src="./08-arquitectura/img/imagen_7.jpg"
+                alt="Cabaña rodeada de arboles"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="seccion-footer">
+      <div class="contenedor contenido__footer">
+        <h2 class="footer__titulo">Arquitectura<span>Bosque</span></h2>
+        <nav class="navegacion__footer">
           <a class="link" href="#">Inicio</a>
           <a class="link" href="#">Nosotros</a>
           <a class="link" href="#">Modelos</a>
           <a class="link" href="#">Galeria</a>
           <a class="link" href="#">Contacto</a>
         </nav>
+        <a class="footer__tel" href="tel:018000000000">
+          <svg class="footer__tel-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M6.6 10.8c1.4 2.7 3.9 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.6.6 3.9.6.6 0 1 .4 1 1V21c0 .6-.4 1-1 1C10.4 22 2 13.6 2 3c0-.6.4-1 1-1h3.3c.6 0 1 .4 1 1 0 1.3.2 2.7.6 3.9.1.4 0 .8-.3 1.1L6.6 10.8z"
+            />
+          </svg>
+          01-800-0000-000
+        </a>
       </div>
-      <div class="slogan">
-        <h1>Tu casa en el bosque</h1>
-        <p>Construimos la casa de tus sueños</p>
+      <div class="footer__pie">
+        <p>Todos los derechos reservados @</p>
       </div>
-    </div>
-  </header>
-  <main>
-    <section class="sobre-nosotros">
-      <div class="contenedor sobre-nosotros__contenido">
-        <div class="sobre-nosotros__img"></div>
-        <div class="sobre-nosotros__texto">
-          <h2>Sobre Nosotros</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Explicabo, nam aspernatur est quas nihil perspiciatis voluptatem
-            vitae accusantium sit numquam ratione impedit alias provident
-            repellendus voluptates, magni pariatur quod quam.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section class="seccion-modelos">
-      <div class="contenedor">
-        <header class="seccion-modelos__header">
-          <p class="modelos-eyebrow">Arquitectura pensada para vos</p>
-
-          <h2>Nuestros Modelos</h2>
-
-          <p class="modelos-descripcion">
-            Tres propuestas diseñadas para adaptarse a distintos estilos de vida
-          </p>
-
-        </header>
-
-        <div class="modelos">
-          <article class="modelo modelo--basico">
-            <h3>Modelo Básico</h3>
-            <img src="./08-arquitectura/img/modelo_basico.jpg" alt="Casa modelo básico" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Sapiente velit harum asperiores ut officiis quam repellendus
-              nulla eaque quibusdam sunt? Quo fugiat temporibus saepe deleniti
-              odio tenetur nam nostrum maiores?
-            </p>
-            <a class="btn" href="#">Más información</a>
-          </article>
-
-          <article class="modelo modelo--premier">
-            <h3>Modelo Premier</h3>
-            <img src="./08-arquitectura/img/modelo_premier.jpg" alt="Casa modelo premier" />
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-              accusantium amet error architecto doloribus itaque mollitia
-              quisquam laboriosam quas aliquid, eligendi optio fugit, natus
-              ipsam quibusdam. Quia quibusdam vitae delectus.
-            </p>
-            <a class="btn" href="#">Más información</a>
-          </article>
-
-          <article class="modelo modelo--elite">
-            <h3>Modelo Elite</h3>
-            <img src="./08-arquitectura/img/modelo_elite.jpg" alt="Casa modelo elite" />
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
-              minus delectus, natus, pariatur distinctio recusandae rerum
-              adipisci veniam aliquid explicabo praesentium libero suscipit
-              consequatur itaque omnis tempora voluptatem incidunt enim.
-            </p>
-            <a class="btn" href="#">Más información</a>
-          </article>
-        </div>
-      </div>
-    </section>
-    <section class="seccion-galeria">
-      <div class="contenedor">
-        <h2 class="galeria">
-          
-        </h2>
-      </div>
-    </section>
-  </main>
-</body>
-
+    </footer>
+  </body>
 </html>
