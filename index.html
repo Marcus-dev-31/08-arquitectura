@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,18 +15,18 @@
   </head>
 
   <body>
-    <header class="header">
+    <header class="header" id="inicio">
       <div class="contenedor contenido-header">
         <div class="barra-superior">
           <div class="logo">
             <h1 class="nombre-sitio">Arquitectura<span>Bosque</span></h1>
           </div>
           <nav class="navegacion">
-            <a class="link" href="#">Inicio</a>
-            <a class="link" href="#">Nosotros</a>
-            <a class="link" href="#">Modelos</a>
-            <a class="link" href="#">Galeria</a>
-            <a class="link" href="#">Contacto</a>
+            <a class="link" href="#Inicio">Inicio</a>
+            <a class="link" href="#Nosotros">Nosotros</a>
+            <a class="link" href="#Modelos">Modelos</a>
+            <a class="link" href="#Galeria">Galeria</a>
+            <a class="link" href="#Contacto">Contacto</a>
           </nav>
         </div>
         <div class="slogan">
@@ -36,7 +36,7 @@
       </div>
     </header>
     <main>
-      <section class="sobre-nosotros">
+      <section class="sobre-nosotros" id="nosotros">
         <div class="contenedor sobre-nosotros__contenido">
           <div class="sobre-nosotros__img"></div>
           <div class="sobre-nosotros__texto">
@@ -50,7 +50,7 @@
           </div>
         </div>
       </section>
-      <section class="seccion-modelos">
+      <section class="seccion-modelos" id="modelos">
         <div class="contenedor">
           <header class="seccion-modelos__header">
             <p class="modelos-eyebrow">Arquitectura pensada para vos</p>
@@ -114,7 +114,7 @@
           </div>
         </div>
       </section>
-      <section class="seccion-galeria">
+      <section class="seccion-galeria" id="galeria">
         <div class="contenedor">
           <h2 class="seccion-galeria__titulo">Galeria</h2>
           <div class="galeria__grid">
@@ -153,14 +153,15 @@
               />
             </figure>
 
-            <figure class="galeria__item">
+            <figure class="galeria__item galeria__item--alto">
               <img
+                class="galeria__item--centro"
                 src="./08-arquitectura/img/imagen_6.jpg"
                 alt="Frente de cabaña con arboles"
               />
             </figure>
 
-            <figure class="galeria__item">
+            <figure class="galeria__item galeria__item--alto">
               <img
                 src="./08-arquitectura/img/imagen_7.jpg"
                 alt="Cabaña rodeada de arboles"
@@ -170,9 +171,9 @@
         </div>
       </section>
     </main>
-    <footer class="seccion-footer">
+    <footer class="seccion-footer" id="contacto">
       <div class="contenedor contenido__footer">
-        <h2 class="footer__titulo">Arquitectura<span>Bosque</span></h2>
+        <p class="footer__titulo">Arquitectura<span>Bosque</span></p>
         <nav class="navegacion__footer">
           <a class="link" href="#">Inicio</a>
           <a class="link" href="#">Nosotros</a>
